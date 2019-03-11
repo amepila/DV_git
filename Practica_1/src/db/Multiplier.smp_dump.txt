@@ -1,0 +1,6 @@
+
+State Machine - |ms|control:SM|state
+Name state.IDLE state.ADD_SHIFT state.INIT 
+state.IDLE 0 0 0 
+state.INIT 1 0 1 
+state.ADD_SHIFT 1 1 0 

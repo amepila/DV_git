@@ -1,0 +1,7 @@
+package leds_pkg;
+
+localparam D2W = 16;
+typedef logic[D2W-1:0]product_t;
+
+
+endpackage: leds_pkg

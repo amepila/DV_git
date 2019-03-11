@@ -1,0 +1,20 @@
+package control_pkg;
+
+localparam BW = 8;
+localparam DW = $clog2(BW);
+typedef logic load_t;
+typedef logic ready_t;
+typedef logic clean_t;
+typedef logic [DW:0] count_t;
+typedef enum logic {IDLE, INIT, ADD_SHIFT} state_t;
+
+typedef struct
+{
+	load_t	load,
+	ready_t	ready,
+	clean_t	clean,
+	count_t	count,
+	state_t	state
+}control_t;
+
+endpackage: control_pgk

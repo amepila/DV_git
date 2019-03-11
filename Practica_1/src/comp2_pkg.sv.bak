@@ -1,0 +1,14 @@
+package comp2_pkg;
+
+localparam DW = 8;
+typedef logic [DW:0]val_t;
+typedef logic [DW-1:0]out_t;
+typedef logic sign_t;
+
+typedef struct
+{
+	val_t		val;
+	sign_t	sign;
+};
+
+endpackage

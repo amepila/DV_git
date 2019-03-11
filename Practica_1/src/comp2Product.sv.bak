@@ -1,0 +1,20 @@
+module comp2Product
+import comp2Product::*;
+(
+	input		[7:0]	i_val,
+	input				i_sign,
+	
+	output	[7:0]	o_product,
+	output			o_sign
+);
+
+always_comb begin: comp2
+	if(i_sign)
+		
+
+end: comp2
+
+assign o_product 	= (i_sign) ? ((~i_val) + 1'b1) : i_val;
+assign o_sign 		= o_sign;
+
+endmodule

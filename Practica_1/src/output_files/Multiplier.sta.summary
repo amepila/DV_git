@@ -1,0 +1,89 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clkDivider:CLOCK_DIVIDER|o_clk'
+Slack : -1.810
+TNS   : -59.362
+
+Type  : Slow 1200mV 85C Model Setup 'PLL_HZ|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.181
+TNS   : -0.181
+
+Type  : Slow 1200mV 85C Model Hold 'PLL_HZ|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.201
+TNS   : -0.201
+
+Type  : Slow 1200mV 85C Model Hold 'clkDivider:CLOCK_DIVIDER|o_clk'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkDivider:CLOCK_DIVIDER|o_clk'
+Slack : -1.285
+TNS   : -86.095
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'i_clk'
+Slack : 9.891
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'PLL_HZ|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 49999.709
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clkDivider:CLOCK_DIVIDER|o_clk'
+Slack : -1.529
+TNS   : -49.194
+
+Type  : Slow 1200mV 0C Model Setup 'PLL_HZ|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'PLL_HZ|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.295
+TNS   : -0.295
+
+Type  : Slow 1200mV 0C Model Hold 'clkDivider:CLOCK_DIVIDER|o_clk'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkDivider:CLOCK_DIVIDER|o_clk'
+Slack : -1.285
+TNS   : -86.095
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'i_clk'
+Slack : 9.887
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'PLL_HZ|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 49999.711
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clkDivider:CLOCK_DIVIDER|o_clk'
+Slack : -0.386
+TNS   : -7.290
+
+Type  : Fast 1200mV 0C Model Setup 'PLL_HZ|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'PLL_HZ|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.123
+TNS   : -0.123
+
+Type  : Fast 1200mV 0C Model Hold 'clkDivider:CLOCK_DIVIDER|o_clk'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkDivider:CLOCK_DIVIDER|o_clk'
+Slack : -1.000
+TNS   : -67.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'i_clk'
+Slack : 9.574
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'PLL_HZ|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 49999.780
+TNS   : 0.000
+
+------------------------------------------------------------

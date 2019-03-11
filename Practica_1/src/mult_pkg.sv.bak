@@ -1,0 +1,21 @@
+package mult_pkg;
+
+localparam DW = 8
+localparam D2W = DW*2;
+typedef	logic	load_t;
+typedef	logic [DW-1:0]data_t;
+typedef	logic lsb_t;
+typedef	logic [D2W-1:0]multiplier_t;
+typedef	logic [D2W-1:0]multiplicand_t;
+
+
+typedef struct
+{
+		multiplier_t	multiplier,
+		multiplicand_t multiplicand,
+		lsb_t				lsb,
+		data_t			data
+}mult_t;
+
+
+endpackage: mult_pkg

@@ -1,0 +1,23 @@
+module leds
+(
+	input 	[15:0]i_product,
+	input				i_sign,
+	
+	output			o_led0,
+	output		o_led1,
+	output 		o_led2,
+	output		o_led3,
+	output		o_led4,
+	output		o_led5,
+	output		o_led6,
+	output		o_led7,
+	output		o_led8,
+	output		o_led9,
+	output		o_led10,
+	output		o_led11,
+	output		o_led12,
+	output		o_led13,
+	output		o_led14,
+	output		o_led15,
+	output		o_led16
+);

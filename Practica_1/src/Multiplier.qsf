@@ -1,0 +1,110 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 20:21:39  March 08, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Multiplier_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY ms
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:21:39  MARCH 08, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name SYSTEMVERILOG_FILE multiplier.sv
+set_global_assignment -name SYSTEMVERILOG_FILE multiplicand.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ms.sv
+set_global_assignment -name SYSTEMVERILOG_FILE control_sm.sv
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name SYSTEMVERILOG_FILE adder.sv
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name SYSTEMVERILOG_FILE mult_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE control_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tb_ms.sv
+set_global_assignment -name SYSTEMVERILOG_FILE complement2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE comp2_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE leds.sv
+set_global_assignment -name SYSTEMVERILOG_FILE leds_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE switch_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE switch.sv
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_Y2 -to i_clk
+set_location_assignment PIN_R24 -to i_rst
+set_location_assignment PIN_M23 -to i_start
+set_location_assignment PIN_AB28 -to i_sw0
+set_location_assignment PIN_AC28 -to i_sw1
+set_location_assignment PIN_AC27 -to i_sw2
+set_location_assignment PIN_AD27 -to i_sw3
+set_location_assignment PIN_AB27 -to i_sw4
+set_location_assignment PIN_AC26 -to i_sw5
+set_location_assignment PIN_AD26 -to i_sw6
+set_location_assignment PIN_AB26 -to i_sw7
+set_location_assignment PIN_AC25 -to i_sw8
+set_location_assignment PIN_AB25 -to i_sw9
+set_location_assignment PIN_AC24 -to i_sw10
+set_location_assignment PIN_AB24 -to i_sw11
+set_location_assignment PIN_AB23 -to i_sw12
+set_location_assignment PIN_AA24 -to i_sw13
+set_location_assignment PIN_AA23 -to i_sw14
+set_location_assignment PIN_AA22 -to i_sw15
+set_location_assignment PIN_Y24 -to i_sw16
+set_location_assignment PIN_Y23 -to i_sw17
+set_location_assignment PIN_G19 -to o_led0
+set_location_assignment PIN_F19 -to o_led1
+set_location_assignment PIN_E19 -to o_led2
+set_location_assignment PIN_F21 -to o_led3
+set_location_assignment PIN_F18 -to o_led4
+set_location_assignment PIN_E18 -to o_led5
+set_location_assignment PIN_J19 -to o_led6
+set_location_assignment PIN_H19 -to o_led7
+set_location_assignment PIN_J17 -to o_led8
+set_location_assignment PIN_G17 -to o_led9
+set_location_assignment PIN_J15 -to o_led10
+set_location_assignment PIN_H16 -to o_led11
+set_location_assignment PIN_J16 -to o_led12
+set_location_assignment PIN_H17 -to o_led13
+set_location_assignment PIN_F15 -to o_led14
+set_location_assignment PIN_G15 -to o_led15
+set_location_assignment PIN_G16 -to o_led16
+set_location_assignment PIN_E21 -to o_ready
+set_global_assignment -name SYSTEMVERILOG_FILE comp2Product.sv
+set_global_assignment -name SYSTEMVERILOG_FILE PLL.sv
+set_global_assignment -name SYSTEMVERILOG_FILE clkDivider.sv
+set_global_assignment -name SYSTEMVERILOG_FILE clk_pkg.sv
+set_location_assignment PIN_E22 -to TEST
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

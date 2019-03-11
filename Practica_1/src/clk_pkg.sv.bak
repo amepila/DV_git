@@ -1,0 +1,8 @@
+package clk_pkg;
+
+localparam	FREQUENCY_IN 	= 10000;
+localparam	FREQUENCY_OUT	= 5;
+localparam	MAX_COUNT		= (freQUENCY_IN/FREQUENCY_OUT)/2;
+typedef 		[31:0]counter_t;
+
+endpackage: clk_pkg
